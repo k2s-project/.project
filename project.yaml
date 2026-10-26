@@ -1,0 +1,65 @@
+# .project metadata for K2s
+#
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+schema_version: "1.0.0"
+slug: "k2s"
+name: "K2s"
+description: "Kubernetes distribution for mixed Windows and Linux workloads"
+type: "project"
+project_lead: "krotz-dieter"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2026-10-02T13:56:25Z"
+    issue: "https://github.com/cncf/sandbox/issues/534"
+
+repositories:
+  - "https://github.com/k2s-project/k2s"
+
+website: "https://k2s-project.github.io/k2s/"
+
+adopters:
+  path: "https://github.com/k2s-project/k2s/blob/main/ADOPTERS.md"
+
+security:
+  policy:
+    path: "https://github.com/k2s-project/k2s/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/k2s-project/k2s/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/k2s-project/k2s/blob/main/docs/dev-guide/contributing/index.md"
+  governance_doc:
+    path: "https://github.com/k2s-project/k2s/blob/main/MAINTAINERS.md"
+  decision_making_process:
+    path: "https://github.com/k2s-project/k2s/blob/main/MAINTAINERS.md#becoming-a-maintainer"
+  roles_and_teams:
+    path: "https://github.com/k2s-project/k2s/blob/main/MAINTAINERS.md"
+  code_of_conduct:
+    path: "https://github.com/k2s-project/k2s/blob/main/CODE_OF_CONDUCT.md"
+  maintainer_lifecycle:
+    onboarding_doc:
+      path: "https://github.com/k2s-project/k2s/blob/main/MAINTAINERS.md#becoming-a-maintainer"
+    offboarding_policy:
+      path: "https://github.com/k2s-project/k2s/blob/main/MAINTAINERS.md#emeritus-maintainers"
+
+legal:
+  license:
+    path: "https://github.com/k2s-project/k2s/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/k2s-project/k2s/blob/main/README.md"
+  architecture:
+    path: "https://github.com/k2s-project/k2s/blob/main/docs/dev-guide/architecture.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Scheduling & Orchestration"

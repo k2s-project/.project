@@ -1,0 +1,19 @@
+# Maintainer roster for K2s.
+# Members match the current maintainers listed in k2s-project/k2s.
+#
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+maintainers:
+  - project_id: "k2s"
+    org: "k2s-project"
+    teams:
+      - name: "maintainers"
+        members:
+          - krotz-dieter
+          - GermanGLLopez
+          - Shashank-Wagle23
+          - vvkrishnakanth9
+          - sk1486
+          - Saurabh-Kumar24
+          - jgriegershs
+          - abhitoshj
